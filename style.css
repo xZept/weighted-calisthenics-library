@@ -76,20 +76,48 @@ a {
 
 .information-header > .header {
     align-self: center;
+    margin-top: 2%;
 }
 
 .information-header > .contents {
     display: flex;
-    margin: 0 2% 5%;
+    margin: 0 2% 2%;
 }
 
 .movement {
     width: 15%;
     height: auto;
-    border: 1px solid black;
     flex: 1;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1%;
 }
 
-img {
-    max-width: 50%;
+.movement > img {
+    width: 50%;
+    height: 40%;
+    object-fit: cover;
+    border: 5px solid #1F2937;
+    border-radius: 8px;
 }
+
+a {
+    display: block;
+    font-size: smaller;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    
+}
+
